@@ -1,0 +1,138 @@
+/* Limpar formatação padrão */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 1em;
+    font-family: "trebuchet MS", Helvetica, sans-serif;
+    background: #919191;
+}
+
+/*layout*/
+
+#area-cabecalho{
+    background: black;
+    padding: 15px;
+    text-align: center;
+}
+
+
+#area-logo, #area-menu{
+    padding: 10px;
+}
+
+#area-principal{
+    width: 920px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+
+#area-postagens{
+    width: 660px;
+    float: left;
+}
+
+#area-lateral{
+    width: 240px;
+    float: right;
+}
+
+.postagem{
+    padding: 20px;
+    margin-bottom: 20px;
+    background: rgb(66, 63, 63);
+}
+
+.conteudo-lateral{
+    background: rgb(66, 63, 63);
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.texto-lateral{
+    font-size: 0.8em;
+    padding: 5px;
+    border-bottom: 1px dotted #CCC;
+}
+
+#rodape{
+    clear: both;
+    background: black;
+    text-align: center;
+    padding: 15px;
+    color: white;
+}
+
+/* formatação menu*/
+
+a{
+    text-decoration: none;
+}
+
+a:link, a:visited{ 
+    color: black;
+}
+
+a:hover{ 
+    text-decoration: underline;
+}
+
+#area-cabecalho a:link, #area-cabecalho a:visited{ /*indicando a cor do link quando visitado*/
+    color: #FFF;
+    padding: 8px 12px;
+}
+
+#area-cabecalho a:hover{ /*indicando a cor quando o mouse passar por cima do link*/
+    color: black;
+    background: #FFF;
+    text-decoration: none;
+}
+
+
+/*formatação geral*/
+
+h1{
+    color: rgb(255, 251, 251);
+    font-size: 2.5em;
+}
+
+
+h2{
+    color:white;
+}
+
+h3{
+    color: #565656;
+    background: #CCC;
+}
+
+p{
+    color: white;
+}
+
+span{
+    color: white;
+}
+
+.postagem a{
+    color: white;
+}
+
+.conteudo-lateral a{
+    color: white;
+}
+
+.branco{
+    color: white;
+}
+
+.data-postagem{
+    font-size: 0.8em;
+    border-bottom: 1px solid #f4f4f4;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    display: block;
+}
